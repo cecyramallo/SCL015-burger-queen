@@ -30,6 +30,7 @@ const App = () =>{
             <Waiter />
          </Route>
         <Route path='/home'>
+          
             <NavBar />
             <MenuNav />
             <RestOfDay />
