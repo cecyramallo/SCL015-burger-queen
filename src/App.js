@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Breakfast from './Components/Breakfast'
+import Entry from './Components/Entry'
+import Kitchen from './Components/Kitchen'
+import MenuNav from './Components/MenuNav'
+import NavBar from './Components/NavBar'
+import OrderState from './Components/OrderState'
+import OrderTable from './Components/OrderTable'
+import RestOfDay from './Components/RestOfDay'
+import Waiter from './Components/Waiter'
 
-function App() {
+
+import './App.css'; 
+
+const App = () =>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='container'>
+        <h1>Sitio con React</h1>
+        <hr />
+        <Switch>
+        <Route path='/'exact>
+            <Entry />
+            <Waiter />
+         </Route>
+        <Route path='/home'>
+          
+            <NavBar />
+            <MenuNav />
+            <RestOfDay />
+            <OrderTable />
+         </Route>
+           </Switch>
+      </div>
+    </Router>
   );
 }
 
