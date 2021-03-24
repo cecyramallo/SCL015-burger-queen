@@ -7,11 +7,11 @@ const Entry = () =>{
         <button>Mesero</button><button>Cocina</button>
         <label>Nombre</label><input type="text"/>
         <label>Turno</label> 
-        <select name="Turno" id=""/>
+        <select name="Turno" id="">
           <option value="">Mañana</option>
           <option value="">Tarde</option>
           <option value="">Noche</option>
-        <select/>
+        </select>
         <button>Entrar</button>
       </div>
     </div>
