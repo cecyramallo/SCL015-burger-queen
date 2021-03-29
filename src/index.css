@@ -1,4 +1,5 @@
 body {
+  background-image: url(./fondo-burger-queen.png);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  width: 50%;
+}
+#logo-vacio{
+  width: 45%;
+  margin-top: 10%;
+}
+#marco-secundario{
+  width: 100%;
+  margin-top: 5%; 
+
+}
+#buttons-entry{
+  align-content: center;
+  display: flex;
+}
+#mesero{
+  margin-left: 50%;
+  margin-top: 5%;
+}
+#cocina{
+  margin-left: 5%;
 }

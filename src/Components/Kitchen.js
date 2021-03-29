@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 const Kitchen = () =>{
     return (
       <div>
@@ -11,7 +12,7 @@ const Kitchen = () =>{
           <option value="">Noche</option>
         </select>
       </div>
-      <button>Entrar</button>
+      <Link to="/home"><button type="button">Entrar</button></Link>
       </div>
     );
   }

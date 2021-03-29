@@ -1,20 +1,16 @@
+import {Link} from "react-router-dom";
+// import Waiter from './Waiter'
 import React from 'react';
+
 const Entry = () =>{
     return (
-    <div>
-      <div id="logo">
-        <img src="" alt=""/>
-        <button>Mesero</button><button>Cocina</button>
-        <label>Nombre</label><input type="text"/>
-        <label>Turno</label> 
-        <select name="Turno" id="">
-          <option value="">Mañana</option>
-          <option value="">Tarde</option>
-          <option value="">Noche</option>
-        </select>
-        <button>Entrar</button>
-      </div>
-    </div>
+        <div id="marco-secundario">
+              <img id="logo-vacio" src="./img/logo-vacio.png"/>
+              <div id="buttons-entry">
+              <Link to="/waiter"><button id="mesero" type="button"> Mesero</button></Link>
+              <Link to="/kitchen"><button id="cocina" type="button"> Cocina</button></Link>
+              </div>
+        </div>
     );
   };
   

@@ -2,7 +2,7 @@ import React from 'react';
 const OrderTable = () =>{
     return (
       <div>
-        <h2>Querido</h2>
+        <h2>Soy texto tabla pedido</h2>
       </div>
     );
   }
