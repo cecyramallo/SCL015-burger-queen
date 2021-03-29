@@ -8,7 +8,7 @@ const RestOfDay = () =>{
     <div>
         {/* <NavBar />
         <ButtonNav /> */}
-        <h2>soy testo resto del dia</h2>
+        <h2>soy texto resto del dia</h2>
         {/* <OrderTable /> */}
       </div>
     );

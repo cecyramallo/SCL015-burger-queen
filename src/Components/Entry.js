@@ -4,15 +4,13 @@ import React from 'react';
 
 const Entry = () =>{
     return (
-    <div>
-      <div id="logo">
-        <img src="" alt=""/>
-      </div>
-      <div>
-      <Link to="/waiter"><button type="button"> Mesero</button></Link>
-      <Link to="/kitchen"><button type="button"> Cocina</button></Link>
-        </div> 
-      </div>
+        <div id="marco-secundario">
+              <img id="logo-vacio" src="./img/logo-vacio.png"/>
+              <div id="buttons-entry">
+              <Link to="/waiter"><button id="mesero" type="button"> Mesero</button></Link>
+              <Link to="/kitchen"><button id="cocina" type="button"> Cocina</button></Link>
+              </div>
+        </div>
     );
   };
   
