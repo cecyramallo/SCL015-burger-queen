@@ -4,6 +4,8 @@ import {
   Switch,
   Route,
   }from "react-router-dom";
+import "./firebase-config"
+import firebase from "firebase/app"
 import Breakfast from './Components/Breakfast'
 import Entry from './Components/Entry'
 import Kitchen from './Components/Kitchen'
@@ -15,15 +17,12 @@ import RestOfDay from './Components/RestOfDay'
 import Waiter from './Components/Waiter'
 import StateTable from './Components/StateTable'
 
-
 import './App.css'; 
 
 const App = () =>{
   return (
     <Router>
       <div className='container'>
-        <h1>Sitio con React</h1>
-        <hr />
         <Switch>
         <Route path='/'exact>
             <Entry />
