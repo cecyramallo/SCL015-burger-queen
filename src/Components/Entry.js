@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 // import Waiter from './Waiter'
 import React from 'react';
+import './Entry.css'; 
 
 const Entry = () =>{
     return (
