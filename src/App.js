@@ -4,6 +4,8 @@ import {
   Switch,
   Route,
   }from "react-router-dom";
+import "./firebase-config"
+import firebase from "firebase/app"
 import Breakfast from './Components/Breakfast'
 import Entry from './Components/Entry'
 import Kitchen from './Components/Kitchen'
@@ -14,7 +16,6 @@ import OrderTable from './Components/OrderTable'
 import RestOfDay from './Components/RestOfDay'
 import Waiter from './Components/Waiter'
 import StateTable from './Components/StateTable'
-
 
 import './App.css'; 
 
