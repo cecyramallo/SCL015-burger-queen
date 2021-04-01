@@ -10,6 +10,7 @@ const Entry = () =>{
               <div id="buttons-entry">
               <Link to="/waiter"><button id="mesero" type="button"> Mesero</button></Link>
               <Link to="/kitchen"><button id="cocina" type="button"> Cocina</button></Link>
+              <Link to="/kitchen"><button id="firebase" type="button"> The Queen</button></Link>
               </div>
         </div>
     );
