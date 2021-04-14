@@ -1,4 +1,4 @@
-import { db } from "../firebase-config"
+// import { db } from "../firebase-config"
 
 import React from 'react';
 const OrderTable = () =>{
