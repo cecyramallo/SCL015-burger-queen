@@ -1,0 +1,18 @@
+.kitchen{
+    margin-top: 5%;
+    justify-content:left;
+}
+.container-waiter{
+    background-color: white;
+    display: table-column-group;
+    
+}
+.nombre{
+    width: 100px;
+    margin-left: 30%;
+
+}
+.turno{
+    width: 100px;
+    margin-left: 5%;
+}

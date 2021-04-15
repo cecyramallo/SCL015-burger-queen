@@ -1,4 +1,37 @@
 /* Background image - Entry */
 body{
-    background-image: url(./fondo-burger-queen.png);
+    background-image: url(../Assets/Entrada-2.png);
+}
+.buttons-entry{
+    margin-top: 15%;
+    width: 100%;
+    justify-content: center;
+
+}
+#mesero{
+    width: 130px;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 58%;
+    color: #595757;
+    background-color: #DFCBA4;
+    border: 2px solid white;
+}
+#mesero:hover{
+    background-color: #D5B986;
+    border-color: #4B3A3A;
+    color: #4B3A3A;
+}
+#cocina{
+    width: 130px;
+    font-size: 20px;
+    margin-top: 10%;
+    color: #595757;
+    background-color: #DFCBA4;
+    border: 2px solid white;
+}
+#cocina:hover{
+    background-color: #D5B986;
+    border-color: #4B3A3A;
+    color: #4B3A3A;
 }

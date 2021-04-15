@@ -2,9 +2,9 @@ import {Link} from "react-router-dom";
 import React from 'react';
 const Waiter = () =>{
     return (
-      <div>
-        <label>Nombre</label><input type="text"/>
-        <label>Turno</label> 
+      <div className="container-waiter">
+        <label className="nombre">Nombre</label><input type="text"/>
+        <label className="turno">Turno</label> 
         <select name="Turno" id="">
           <option value="">Mañana</option>
           <option value="">Tarde</option>
