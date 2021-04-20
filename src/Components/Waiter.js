@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import React from 'react';
+import './Waiter.css'; 
 const Waiter = () =>{
     return (
       <div className="container-waiter">
@@ -10,7 +11,7 @@ const Waiter = () =>{
           <option value="">Tarde</option>
           <option value="">Noche</option>
         </select>
-        <Link to="/home"><button type="button">Entrar</button></Link>
+        <Link to="/home"><button type="button" className="button-entry">Entrar</button></Link>
       </div>
     );
   }

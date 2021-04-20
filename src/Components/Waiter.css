@@ -3,16 +3,35 @@
     justify-content:left;
 }
 .container-waiter{
-    background-color: white;
-    display: table-column-group;
-    
+    margin-top: 3%;
+    margin-left: 50%;
+    width: 200px;
 }
 .nombre{
-    width: 100px;
-    margin-left: 30%;
+    font-size: 18px;
+    display: table-cell; 
+   vertical-align: middle;
+   justify-content: center;
 
 }
 .turno{
-    width: 100px;
-    margin-left: 5%;
+    font-size: 18px;
+    display: table-cell; 
+    vertical-align: middle;
+}
+.button-entry{
+    margin-top: 5%;
+    margin-left: 58%;
+    background-color: #DDAA22;
+    border: #4B3A3A solid 3px;
+    color: white;
+    font-size: 18px;
+    display: table-cell; 
+    vertical-align: middle;
+    width: 120px;
+}
+.button-entry:hover{
+    background-color: #4B3A3A ;
+    border-color: #4B3A3A;
+    color: white;
 }
