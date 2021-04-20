@@ -1,0 +1,18 @@
+.kitchen{
+    margin-top: 5%;
+    justify-content:left;
+}
+.content-kitchen{
+    background-color: white;
+    display: table-column-group;
+    
+}
+.user-name{
+    width: 100px;
+    margin-left: 30%;
+
+}
+.user-turno{
+    width: 100px;
+    margin-left: 5%;
+}
