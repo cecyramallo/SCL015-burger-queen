@@ -11,18 +11,16 @@ const ButtonNav = () =>{
       <div className="Container mt-5">
       <div className="btn-group">
         <Link to="/breakfast" className="btn btn-dark">
-          Desayuno 1
+          Desayuno
           </Link>
           <Link to="/home" className="btn btn-dark">
-          Resto del Dia 2
+          Resto del Dia
           </Link>
           <Link to="/orderstate" className="btn btn-dark">
-          Estado 3
+          Estado del pedido
           </Link>
-        <h2>hola</h2>
       </div>
       </div>
-      
     );
   };
   

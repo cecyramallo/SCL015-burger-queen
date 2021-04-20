@@ -16,8 +16,10 @@ import OrderTable from './Components/OrderTable'
 import RestOfDay from './Components/RestOfDay'
 import Waiter from './Components/Waiter'
 import StateTable from './Components/StateTable'
+import Header from './Components/Header'
 
 import './App.css'; 
+
 
 const App = () =>{
   return (
@@ -33,7 +35,7 @@ const App = () =>{
             <Kitchen />
          </Route>
         <Route path='/home'>
-            <NavBar />
+            <Header />
             <ButtonNav />
             <RestOfDay />
             <OrderTable />
