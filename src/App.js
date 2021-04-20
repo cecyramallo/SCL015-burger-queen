@@ -5,7 +5,6 @@ import {
   Route,
   }from "react-router-dom";
 import "./firebase-config"
-//import firebase from "firebase/app"
 import Breakfast from './Components/Breakfast'
 import Entry from './Components/Entry'
 import Kitchen from './Components/Kitchen'
