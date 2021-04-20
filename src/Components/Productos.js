@@ -2,62 +2,111 @@
 const restOfDayMenu = {
     types: [
         {
-            name: "meat",
+            id: 1,
+            name: "Meat Simple",
+            price: 1500,
             image: require("../Assets/Chicken.png").default,
             add: [{
-                name: "egg"
+                name1: "Egg",
+                price1: 300,
             },
             {   
-                name: "cheese"
+                name2: "Cheese",
+                price2: 300,
             }]
         },
         {
-            name: "chicken",
+            id: 2,
+            name: "Meat Doble",
+            price: 3000,
+            add: [{
+                name1: "Egg",
+                price1: 300,
+            },
+            {   
+                name2: "Cheese",
+                price2: 300,
+            }]
+        },
+        {   
+            id: 3,
+            name: "Chicken Simple",
+            price: 1500,
             image: require("../Assets/Cow.png").default,
             add: [{
-                name: "cheese"
+                name1: "Egg"
+            },
+            {   
+                name2: "Cheese"
             }]
         },
-        {
-            name: "veggie",
+        {   
+            id: 4,
+            name: "Chicken Doble",
+            price: 3000,
+            add: [{
+                name1: "Egg"
+            },
+            {   
+                name2: "Cheese"
+            }]
+        },
+        {   
+            id: 5,
+            name: "Veggie Simple",
+            price: 1500,
             image: require("../Assets/Veggie.png").default,
             add: [{
-                name: "egg"
+                name1: "Egg"
+            },
+            {   
+                name2: "Cheese"
+            }]
+        },
+        {   
+            id: 6,
+            name: "Veggie Doble",
+            price: 3000,
+            add: [{
+                name1: "Egg"
+            },
+            {   
+                name2: "Cheese"
             }]
         }
     ],
     accompaniments: [{
-        id: 3,
+        id: 7,
         name: "Agua 650ml",
         price: 500,
         image: require("../Assets/Water6.png").default,
     },
     {
-        id: 4,
+        id: 8,
         name: "Agua 1lt",
         price: 700,
         image: require("../Assets/Water1.png").default,
     },
     {
-        id: 5,
+        id: 9,
         name: "Aros de cebolla",
         price: 500,
         image: require("../Assets/Onionrings.png").default,
     },
     {
-        id: 6,
+        id: 10,
         name: "Papas fritas",
         price: 700,
         image: require("../Assets/Fries.png").default,
     },
     {
-        id: 7,
+        id: 11,
         name: "Bebida 500ml",
         price: 700,
         image: require("../Assets/Soda5.png").default,
     },
     {
-        id: 8,
+        id: 12,
         name: "Bebida 1lt",
         price: 1000,
         image: require("../Assets/Soda1.png").default,
